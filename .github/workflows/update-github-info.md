@@ -17,6 +17,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     title-prefix: "[mona] "
@@ -34,7 +35,8 @@ Fetch and review both official sources:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
-Update `site/content/github-info.md` with a short, practical summary of the most useful current GitHub updates for developers. Keep the existing editorial angle, mention the source for every update, and preserve useful existing content unless it is outdated.
+Update `site/content/github-info.md` with a short, practical summary of the most useful current GitHub updates and Awesome Copilot workflows for developers. Keep the existing editorial angle, mention the source for every update, and preserve useful existing content unless it is outdated.
 
 When a change is needed, use the edit tool only on `site/content/github-info.md`. Then use the `create-pull-request` safe output to open a draft pull request for Mona to review. Do not write directly to the default branch.
